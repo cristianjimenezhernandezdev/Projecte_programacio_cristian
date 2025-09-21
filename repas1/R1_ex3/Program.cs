@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,35 +15,53 @@ namespace R1_ex3
          * factorial del número llegit.
          * Nota: La majoria de comentaris han estat posats amb chatgpt*/
 
-
         static void Main(string[] args)
         {
+            // Declaració de variables
             int a = 0;
             int b = 0;
-            int temp = 0;
-            int i = 0;
+         
+            // Llegir valors des del teclat
             Console.Write("Introdueix un número a: ");
             a = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Introdueix un número b: ");
             b = Convert.ToInt32(Console.ReadLine());
 
-     
-            if (a > b)
+            // Càlcul del producte entre els dos nombres
+            ProducteEntre(in a, in b, out int mult);
+            Console.WriteLine($"El factorial de {b} menys {a} és {mult}");
+
+            // Validació del rang
+            if (!Validar(a, b))
             {
-                temp = a;
-                a = b;
-                b = temp;
+                Console.WriteLine("Error: no es poden multiplicar més de 11 nombres seguits.");
             }
 
-            Console.WriteLine("Números imparells:");
-            for (i = a; i <= b; i++)
-            {
-                if (i % 2 != 0)   
-                {
-                    Console.WriteLine(i);
-                }
-            }
+            // Mostrar resultat
+            Console.WriteLine($"La multiplicació del rang de numeros és: {ProducteEntre(in a, in b, out mult)}");
         }
-    }
+
+        // Funció que calcula el producte entre dos nombres
+        static int ProducteEntre(in int a, in int b, out int mult)
+        {
+            mult = 1;
+            for (int i = a; i <= b; i++)
+                mult *= i;
+            return mult;
+        }
+
+        // Funció de validació simple del rang
+        static bool Validar(int a, int b)
+        {
+            if ((b - a + 1) > 11)
+            {
+                return false;
+            }
+            return true;
+        }        
+
+
+
+}
 }
