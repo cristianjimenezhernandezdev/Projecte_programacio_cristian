@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build Folders
+bin/
+obj/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
+
+# Others
+*.log
+*.sqlite
