@@ -24,18 +24,21 @@ namespace R1_Ex2
             // Cadena que conté la 'x' inicial; anirem afegint una 'x' per cada iteració
             string b = "x";
 
-            // Variable temporal (no és necessària en aquest exemple, es deixa per compatibilitat)
-            int temp = 0;
 
             // Bucle que recorre des de 0 fins a 'a' i mostra el nombre i la cadena corresponent
-            for (int i = 0; i <= a; i++)
+            for (int i = 0; i <=a; i++)
             {
+                for(int j=0;j<i;j++)
+                {
+                    Console.Write("x");
+                }
                 // Mostrem el número i la cadena 'b' separats per una barra vertical
-                Console.Write($"{i}|{b} ");
+                Console.Write($" {i}|");
 
                 // Afegim una 'x' a la cadena per a la següent iteració
                 b += "x";
             }
+
 
 
         }
