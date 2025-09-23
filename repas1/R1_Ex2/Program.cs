@@ -14,7 +14,7 @@ namespace R1_Ex2
         0|x 1|xx 2|xxx 3|xxxx 4|xxxxx 5|xxxxxx 6|xxxxxxx 7|xxxxxxxx 8|xxxxxxxxx 9|xxxx
         xxxxx 10|
 
-        Nota: La majoria de comentaris han estat posats amb chatgpt
+
         */
         static void Main(string[] args)
         {
@@ -32,10 +32,10 @@ namespace R1_Ex2
                 {
                     Console.Write("x");
                 }
-                // Mostrem el número i la cadena 'b' separats per una barra vertical
+
                 Console.Write($" {i}|");
 
-                // Afegim una 'x' a la cadena per a la següent iteració
+                // Afegim una 'x' a la cadena 
                 b += "x";
             }
 

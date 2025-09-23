@@ -27,7 +27,7 @@ namespace R1_ex5
 
                 while (i < paisos.Length && !trobat)
                 {
-                    if (paisentrat == paisos[i])  // comparació directa
+                    if (paisentrat == paisos[i])  
                     {
                         Console.WriteLine($"La capital de {paisos[i]} és {capitals[i]}.");
                         trobat = true;

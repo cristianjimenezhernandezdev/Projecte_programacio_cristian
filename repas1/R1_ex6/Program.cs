@@ -14,7 +14,7 @@ namespace R1_ex6
             /*6.	Fes un programa amb aquesta cadena “abcdefghijklmnopqrstuvxyz” que mostri el següent. 
              * Vigileu amb els límits de la cadena, recordeu que van entre 0 i cad.length-1 però adapteu-los a aquest problema. 
              * Podeu pensar igual que varem fer per fer el triangle de números amb files i columnes
-             * M'he hagut d'apoyar en chat sobretot per la part del new string que no la tenia clara com fer-ho amb aquesta estructura*/
+             */
             //Versio 1 , pulida
             string alfabet = "abcdefghijklmnopqrstuvwxyz";   
             int max = alfabet.Length;                        // guardem la llargada màxima

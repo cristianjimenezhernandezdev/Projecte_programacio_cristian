@@ -30,7 +30,7 @@ namespace R1_ex4
             Console.WriteLine(l1 + l2 + l3 + l4 + l5 + l6);
 
             //Versio 2
-            //Amb ajuda de chat, pero entenc el funcionament. Es declara un string, es defineix la mida del que es mostra amb el for
+            //Es declara un string, es defineix la mida del que es mostra amb el for
             //Llavors fem servir la funcio substring inicia en 0 i que imprimeixi fins a la posicio i. 
             //d'aquesta manera acada volta va imprimint des de la primera lletra 0 fins a la lletra i, siguent el màxim la longitud de la paraula
             string text = "cadena";
@@ -50,7 +50,7 @@ namespace R1_ex4
                 {
                     Console.Write(text2[j]);
                 }
-                Console.WriteLine(); // salt de línia
+                Console.WriteLine(); 
             }
 
 

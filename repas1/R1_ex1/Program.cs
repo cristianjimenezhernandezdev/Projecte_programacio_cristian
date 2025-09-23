@@ -9,7 +9,7 @@ namespace R1_ex1
     internal class Program
     {
         //1.	Fes un programa per mostrar els imparells entre dos números llegits pel teclat abdos inclosos. 
-        //Nota: La majoria de comentaris han estat posats amb chatgpt
+     
         static void Main(string[] args)
         {
             int a = 0;
