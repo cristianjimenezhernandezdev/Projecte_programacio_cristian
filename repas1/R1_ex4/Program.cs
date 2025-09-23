@@ -11,8 +11,7 @@ namespace R1_ex4
         static void Main(string[] args)
         {
             /*4.	Feu un programa per escriure la cadena CADENA d’aquesta forma
-            El programa demana 		Nom: cadena i mostra el triangle que es veu a continuació
-            Alguns comentaris amb chatgpt
+            El programa demana 		Nom: cadena i mostra el triangle que es veu a continuació         
             */
             //Versió 1
             string l1 = "c";

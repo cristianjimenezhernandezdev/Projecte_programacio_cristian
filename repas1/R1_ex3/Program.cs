@@ -13,7 +13,7 @@ namespace R1_ex3
          * per exemple si poseu 1 i 4 farà 1*2*3*4. Vigileu per què si poseu números molt grans us podeu passar del tamany dels 
          * integers ( proveu-lo fins a 12). Si comenceu des de 1 i aneu fins al valor llegit esteu calculant el 
          * factorial del número llegit.
-         * Nota: La majoria de comentaris han estat posats amb chatgpt*/
+         */
 
         static void Main(string[] args)
         {
@@ -51,7 +51,7 @@ namespace R1_ex3
             return mult;
         }
 
-        // Funció de validació simple del rang
+        
         static bool Validar(int a, int b)
         {
             if ((b - a + 1) > 11)
