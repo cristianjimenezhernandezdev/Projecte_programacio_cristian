@@ -110,6 +110,7 @@ namespace RepasPOO
                         foreach (var e in Equips)
                         {
                             e.Jequip();
+                            Console.WriteLine();
                         }
                     }
                 }
@@ -136,6 +137,7 @@ namespace RepasPOO
 
                     lligaFutbol.AfegirEquip(equip1);
                     lligaFutbol.AfegirEquip(equip2);
+                    
 
                     // Crear lliga de bàsquet
                     Lliga lligaBasquet = new Lliga("Bàsquet");
@@ -163,10 +165,17 @@ namespace RepasPOO
                     equip6.AfegirJugador(new Jugador("Numero 2", 02, 2));
 
                     lligaTennis.AfegirEquip(equip5);
-                    lligaBasquet.AfegirEquip(equip6);
-                    // Mostrar resultats
+                    lligaTennis.AfegirEquip(equip6);
+                    
+
+                    // Mostrar Aqui com que esta muntat un sistema de funcions anidades que una mostra l'anterior
+                    // executant la primera automàticament apareixeran les altres que estan dins
+                    //fins arribar al final
                     lligaFutbol.MostrarEquips();
+                    Console.WriteLine();
                     lligaBasquet.MostrarEquips();
+                    Console.WriteLine();
+                    lligaTennis.MostrarEquips();
 
                     Console.WriteLine("Gràcies");                    
                 }
