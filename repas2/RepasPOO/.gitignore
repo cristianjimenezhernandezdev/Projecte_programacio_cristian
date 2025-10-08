@@ -1,0 +1,24 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Visual C++ cache files
+*.VC.db
+*.VC.VC.opendb
+
+# Others
+[Bb]uild/
+_ReSharper*/
+*.ncrunch*
+*.ipch
+*.aps
+*.pch
+*.vspscc
+*.vssscc
