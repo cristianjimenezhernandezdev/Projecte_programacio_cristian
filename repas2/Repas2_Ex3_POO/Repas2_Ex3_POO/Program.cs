@@ -41,15 +41,29 @@ namespace Repas2_Ex3_POO
             public int id;
             public bool reservat;
             public bool actiu;
-            public string nom;
+        
 
-            public Item(int idRecurs, bool reservatInicial, bool actiuInicial, string nomRecurs)
+            public Item(int idItem, bool reservatInicial, bool actiuInicial)
             {
-                id = idRecurs;
+                id = idItem;
                 reservat = reservatInicial;
                 actiu = actiuInicial;
-                nom = nomRecurs;
+             
             }
+
+            public void Activar()
+            {
+                if (reservat && !actiu)
+                {
+                    actiu = true;
+                    Console.WriteLine(id  + " activat.");
+                }
+                else
+                {
+                    Console.WriteLine(id  + " no es pot activar");
+                }
+            }
+
         }
 
 
@@ -59,7 +73,7 @@ namespace Repas2_Ex3_POO
             public string matricula;
 
             public Vehicle(int idVehicle, bool reservatInicial, bool actiuInicial, string marcaVehicle, string matriculaVehicle)
-                : base(idVehicle, reservatInicial, actiuInicial, marcaVehicle)
+                : base(idVehicle, reservatInicial, actiuInicial)
             {
                 marca = marcaVehicle;
                 matricula = matriculaVehicle;
@@ -119,9 +133,11 @@ namespace Repas2_Ex3_POO
 
             public class Maquinaria : Item
             {
+                public string nom;
                 public Maquinaria(int idMaquina, bool reservatInicial, bool actiuInicial, string nomMaquina)
-                    : base(idMaquina, reservatInicial, actiuInicial, nomMaquina)
+                    : base(idMaquina, reservatInicial, actiuInicial)
                 {
+                    nom= nomMaquina;
                 }
 
                 public void ReservarMaquina()
