@@ -61,7 +61,8 @@ namespace Repas2_Ex3_POO
                 actiu = actiuInicial;
              
             }
-
+            //Faig un mètode per la opcio d'activar que al estar dins del Item doncs servirà per tots els
+            //objectes que heretin la classe
             public void Activar()
             {
                 if (reservat && !actiu)
@@ -74,10 +75,39 @@ namespace Repas2_Ex3_POO
                     Console.WriteLine(id  + " no es pot activar");
                 }
             }
+            public void Alliberar()
+            {
+                if (reservat || actiu)
+                {
+                    reservat = false;
+                    actiu = false;
+                    Console.WriteLine(id + " alliberat correctament.");
+                }
+                else
+                {
+                    Console.WriteLine(id + " ja estava lliure.");
+                }
+            }
+
+            public void TreureReserva()
+            {
+                if (reservat)
+                {
+                    reservat = false;
+                   
+                    Console.WriteLine(id + " se li ha tret la reserva correctament.");
+                }
+                else
+                {
+                    Console.WriteLine(id + " ja estava lliure.");
+                }
+            }
+
+
 
         }
 
-
+        //El vehicle el faig fill de Item i li afegeixo dos atributs propis, marca i matricula
         public class Vehicle : Item
         {
             public string marca;
@@ -89,7 +119,7 @@ namespace Repas2_Ex3_POO
                 marca = marcaVehicle;
                 matricula = matriculaVehicle;
             }
-
+            //la classe cotxe hereta atributs tant de vehicle com de Item i li afegeixo propietat única  portes
             public class Cotxe : Vehicle
             {
                 public int portes;
@@ -99,7 +129,7 @@ namespace Repas2_Ex3_POO
                 {
                     portes = numPortes;
                 }
-
+                //faig unmetode per reservar el cotxe i canviar el seu estat a reservat
                 public void ReservarCotxe()
                 {
                     if (!reservat)
@@ -114,7 +144,8 @@ namespace Repas2_Ex3_POO
                 }
             }
 
-
+            //la classe cotxe hereta atributs tant de vehicle com de Item i li afegeixo dos propietats propies, cilindrada 
+            //i numero de reposapeus
             public class Moto : Vehicle
             {
                 public int cilindrada;
@@ -126,7 +157,7 @@ namespace Repas2_Ex3_POO
                     cilindrada = cilindradaMoto;
                     numReposapeus = reposapeus;
                 }
-
+                //metode per reservar moto
                 public void ReservarMoto()
                 {
                     if (!reservat)
@@ -141,7 +172,7 @@ namespace Repas2_Ex3_POO
                 }
             }
 
-
+            //la poso sota de la classe Item
             public class Maquinaria : Item
             {
                 public string nom;
@@ -150,7 +181,7 @@ namespace Repas2_Ex3_POO
                 {
                     nom= nomMaquina;
                 }
-
+                //metode per reservar la maquina
                 public void ReservarMaquina()
                 {
                     if (!reservat)
