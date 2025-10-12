@@ -32,9 +32,20 @@ namespace Repas2_Ex3_POO
                 c1.ReservarCotxe();
                 m1.ReservarMoto();
                 maq1.ReservarMaquina();
+
+                ActivarTots(c1 , m1, maq1);
             }
 
         }
+        //Un metode per activar-los tots
+        static void ActivarTots(Vehicle.Cotxe c, Vehicle.Moto m, Vehicle.Maquinaria maq)
+        {
+            c.Activar();
+            m.Activar();
+            maq.Activar();
+        }
+
+
         //Classe que serveix per tots
         public class Item
         {
