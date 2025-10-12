@@ -16,7 +16,7 @@ namespace Repas2_Ex3_POO
     // de reservar tant un vehicle com una màquina i en un moment donat, poder activar-los tots de cop.
 
 
-    using System;
+
 
     internal class Program
     {
