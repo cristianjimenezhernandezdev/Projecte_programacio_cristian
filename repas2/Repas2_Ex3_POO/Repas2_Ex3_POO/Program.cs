@@ -53,6 +53,19 @@ namespace Repas2_Ex3_POO
                     numReposapeus = reposapeus;
                 }
             }
-        }
+
+            public class Maquinaria
+            {
+                public int id;
+                public string nomM;
+                public string estat;
+
+                public Maquinaria(int idMaquina, string nomMaquina)
+                {
+                    id = idMaquina;
+                    nomM = nomMaquina;
+                    estat = "lliure";
+                }
+            }
     }
 }
