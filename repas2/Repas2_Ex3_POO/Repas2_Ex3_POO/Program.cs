@@ -22,7 +22,7 @@ namespace Repas2_Ex3_POO
             public int id;
             public string marca;
             public string matricula;
-            public string estat;
+            public bool reservat;
 
             //fem el constructor
             public Vehicle(int idVehicle, string marcaVehicle, string matriculaVehicle)
@@ -30,8 +30,9 @@ namespace Repas2_Ex3_POO
                 id = idVehicle;
                 marca = marcaVehicle;
                 matricula = matriculaVehicle;
-                estat = "lliure";
+                reservat = false;
             }
+            
             public class Cotxe : Vehicle
             {
                 public int portes;
@@ -39,6 +40,18 @@ namespace Repas2_Ex3_POO
                     base(idCotxe, marcaCotxe, matriculaCotxe) 
                 {
                     portes = numPortes;
+                }
+                public virtual void Reservar()
+                {
+                    if (!reservat)
+                    {
+                        reservat=true;
+                        Console.WriteLine(id+" "+marca+" " + matricula+ " reservat.");
+                    }
+                    else
+                    {
+                        Console.WriteLine(id + " " + marca + " " + matricula  + " no es pot reservar");
+                    }
                 }
             }
 
