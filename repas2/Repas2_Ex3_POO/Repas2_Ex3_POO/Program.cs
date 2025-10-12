@@ -41,7 +41,7 @@ namespace Repas2_Ex3_POO
                 {
                     portes = numPortes;
                 }
-                public virtual void Reservar()
+                public virtual void ReservarCotxe()
                 {
                     if (!reservat)
                     {
@@ -64,6 +64,18 @@ namespace Repas2_Ex3_POO
                 {
                     cilindrada = cilindradaMoto;
                     numReposapeus = reposapeus;
+                }
+                public virtual void ReservarMoto()
+                {
+                    if (!reservat)
+                    {
+                        reservat = true;
+                        Console.WriteLine(id + " " + marca + " " + matricula + " reservat.");
+                    }
+                    else
+                    {
+                        Console.WriteLine(id + " " + marca + " " + matricula + " no es pot reservar");
+                    }
                 }
             }
 
