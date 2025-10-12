@@ -23,8 +23,17 @@ namespace Repas2_Ex3_POO
 
         static void Main(string[] args)
         {
+            {
+              //Provem
+                Vehicle.Cotxe c1 = new Vehicle.Cotxe(1, false, false, "Ford", "1234ABC", 5);
+                Vehicle.Moto m1 = new Vehicle.Moto(2, false, false, "Yamaha", "5555AAA", 689, 2);
+                Vehicle.Maquinaria maq1 = new Vehicle.Maquinaria(3, false, false, "Excavadora X");
 
-            
+                c1.ReservarCotxe();
+                m1.ReservarMoto();
+                maq1.ReservarMaquina();
+            }
+
         }
         //Classe que serveix per tots
         public class Item
