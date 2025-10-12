@@ -20,7 +20,7 @@ namespace Repas2_Ex3_POO
         public class Vehicle
         {
             public int id;
-            public string marca;
+            public string nomM;
             public string matricula;
             public bool reservat;
 
@@ -28,16 +28,16 @@ namespace Repas2_Ex3_POO
             public Vehicle(int idVehicle, string marcaVehicle, string matriculaVehicle)
             {
                 id = idVehicle;
-                marca = marcaVehicle;
+                nomM = marcaVehicle;
                 matricula = matriculaVehicle;
                 reservat = false;
             }
-            
+
             public class Cotxe : Vehicle
             {
                 public int portes;
                 public Cotxe(int idCotxe, string marcaCotxe, string matriculaCotxe, int numPortes) :
-                    base(idCotxe, marcaCotxe, matriculaCotxe) 
+                    base(idCotxe, marcaCotxe, matriculaCotxe)
                 {
                     portes = numPortes;
                 }
@@ -45,12 +45,12 @@ namespace Repas2_Ex3_POO
                 {
                     if (!reservat)
                     {
-                        reservat=true;
-                        Console.WriteLine(id+" "+marca+" " + matricula+ " reservat.");
+                        reservat = true;
+                        Console.WriteLine(id + " " + nomM + " " + matricula + " reservat.");
                     }
                     else
                     {
-                        Console.WriteLine(id + " " + marca + " " + matricula  + " no es pot reservar");
+                        Console.WriteLine(id + " " + nomM + " " + matricula + " no es pot reservar");
                     }
                 }
             }
@@ -60,7 +60,7 @@ namespace Repas2_Ex3_POO
                 public int cilindrada;
                 public int numReposapeus;
                 public Moto(int idMoto, string marcaMoto, string matriculaMoto, int cilindradaMoto, int reposapeus)
-                    : base(idMoto, marcaMoto, matriculaMoto) 
+                    : base(idMoto, marcaMoto, matriculaMoto)
                 {
                     cilindrada = cilindradaMoto;
                     numReposapeus = reposapeus;
@@ -70,11 +70,11 @@ namespace Repas2_Ex3_POO
                     if (!reservat)
                     {
                         reservat = true;
-                        Console.WriteLine(id + " " + marca + " " + matricula + " reservat.");
+                        Console.WriteLine(id + " " + nomM + " " + matricula + " reservat.");
                     }
                     else
                     {
-                        Console.WriteLine(id + " " + marca + " " + matricula + " no es pot reservar");
+                        Console.WriteLine(id + " " + nomM + " " + matricula + " no es pot reservar");
                     }
                 }
             }
@@ -83,14 +83,27 @@ namespace Repas2_Ex3_POO
             {
                 public int id;
                 public string nomM;
-                public string estat;
+                public bool reservat;
 
                 public Maquinaria(int idMaquina, string nomMaquina)
                 {
                     id = idMaquina;
                     nomM = nomMaquina;
-                    estat = "lliure";
+                    reservat = false;
+                }
+                public virtual void ReservarMaquina()
+                {
+                    if (!reservat)
+                    {
+                        reservat = true;
+                        Console.WriteLine(id + " " + nomM + " reservat.");
+                    }
+                    else
+                    {
+                        Console.WriteLine(id + " " + nomM + " no es pot reservar");
+                    }
                 }
             }
+        }
     }
 }
