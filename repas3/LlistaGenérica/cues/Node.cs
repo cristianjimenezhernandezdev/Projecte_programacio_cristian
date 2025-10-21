@@ -10,7 +10,7 @@ namespace cues
     {
         public int info;
         public Node seg;
-
+        //inicialitzem
         public Node(int valor)
         {
             info = valor;
