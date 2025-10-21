@@ -28,12 +28,11 @@ namespace cues
             }
         }
 
-        public void Inserir(int info)
+        public void Inserir(Vehicle v1)
         {
-            Node nou;
-            nou = new Node();
-            nou.info = info;
-            nou.seg = null;
+            Node nou =new Node();
+            Vehicle v=new Vehicle(v1.id, v1.preu,v1.nom, v1.color);
+            nou.info = v;
             if (Buida())
             {
                 arrel = nou;
@@ -46,11 +45,12 @@ namespace cues
             }
         }
 
-        public int Extreure()
+        public Vehicle Extreure() 
         {
             if (!Buida())
             {
-                int informacio = arrel.info;
+                Vehicle vehicle = arrel.info;
+                
                 if (arrel == fons)
                 {
                     arrel = null;
@@ -60,11 +60,12 @@ namespace cues
                 {
                     arrel = arrel.seg;
                 }
-                return informacio;
+                return vehicle; 
             }
             else
             {
-                return int.MaxValue;
+                Console.WriteLine("La cua esta buida");
+                return null; 
             }
         }
 

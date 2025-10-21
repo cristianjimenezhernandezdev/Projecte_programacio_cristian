@@ -12,3 +12,11 @@ C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debu
 C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csproj.CoreCompileInputs.cache
 C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.exe
 C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.pdb
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.pdb
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csproj.AssemblyReference.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csproj.CoreCompileInputs.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.pdb
