@@ -10,5 +10,11 @@ namespace cues
     {
         public int info;
         public Node seg;
+
+        public Node(int valor)
+        {
+            info = valor;
+            seg = null;
+        }
     }
 }
