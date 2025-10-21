@@ -1,0 +1,14 @@
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\obj\Debug\Llistes.csprojResolveAssemblyReference.cache
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\obj\Debug\Llistes.csproj.CoreCompileInputs.cache
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.exe.config
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\obj\Debug\LlistaGenérica.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\LlistaGenérica\obj\Debug\LlistaGenérica.pdb
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.exe.config
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.exe
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\bin\Debug\LlistaGenérica.pdb
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\obj\Debug\Llistes.csprojAssemblyReference.cache
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\obj\Debug\Llistes.csproj.CoreCompileInputs.cache
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\obj\Debug\LlistaGenérica.exe
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\LlistaGenérica\obj\Debug\LlistaGenérica.pdb

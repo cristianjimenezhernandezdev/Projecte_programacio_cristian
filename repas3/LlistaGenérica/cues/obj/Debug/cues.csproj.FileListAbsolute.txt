@@ -1,0 +1,7 @@
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\bin\Debug\cues.exe.config
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\bin\Debug\cues.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\bin\Debug\cues.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.csproj.CoreCompileInputs.cache
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.csprojResolveAssemblyReference.cache

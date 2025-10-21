@@ -1,0 +1,7 @@
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\bin\Debug\Piles.exe.config
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\bin\Debug\Piles.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\bin\Debug\Piles.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.csproj.CoreCompileInputs.cache
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.csprojResolveAssemblyReference.cache

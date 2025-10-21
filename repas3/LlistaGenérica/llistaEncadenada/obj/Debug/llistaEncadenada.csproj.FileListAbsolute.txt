@@ -1,0 +1,14 @@
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe.config
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csproj.CoreCompileInputs.cache
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.exe
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.pdb
+C:\Users\ruchm\source\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csprojResolveAssemblyReference.cache
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe.config
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.exe
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\bin\Debug\llistaEncadenada.pdb
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csprojAssemblyReference.cache
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.csproj.CoreCompileInputs.cache
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.exe
+C:\Users\ruben\Desktop\Solucions\repos\LlistaGenérica\llistaEncadenada\obj\Debug\llistaEncadenada.pdb
