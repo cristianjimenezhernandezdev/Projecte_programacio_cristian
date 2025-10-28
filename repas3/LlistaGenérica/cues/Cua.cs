@@ -23,6 +23,10 @@ namespace cues
 
         public void Inserir(Vehicle v1)
         {
+            if (v1 == null)
+            {
+                throw new ExcepcioCua("No pots inserir un vehicle buit.");
+            }
             Node nou = new Node();
             nou.info = v1; // guardar referència, no cal clonar
             nou.seg = null;
@@ -40,7 +44,11 @@ namespace cues
 
         public Vehicle Extreure()
         {
-            
+            if (Buida())
+            {
+                throw new ExcepcioCua("has intentat extreure una Vehicle sense dades (fila buida).");
+            }
+
             {
                 Vehicle vehicle = arrel.info;
                 if (arrel == fons)
