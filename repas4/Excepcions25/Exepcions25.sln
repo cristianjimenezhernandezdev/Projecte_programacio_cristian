@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exepcions25", "Exepcions25\Exepcions25.csproj", "{90A15CCF-CA36-4EBB-AC3B-398F77F33DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExepcionsHerencia", "ExepcionsHerencia\ExepcionsHerencia.csproj", "{5FE4A627-16BB-4574-BB28-C59B96D2DB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90A15CCF-CA36-4EBB-AC3B-398F77F33DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A15CCF-CA36-4EBB-AC3B-398F77F33DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A15CCF-CA36-4EBB-AC3B-398F77F33DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A15CCF-CA36-4EBB-AC3B-398F77F33DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE4A627-16BB-4574-BB28-C59B96D2DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE4A627-16BB-4574-BB28-C59B96D2DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE4A627-16BB-4574-BB28-C59B96D2DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE4A627-16BB-4574-BB28-C59B96D2DB32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B64381C6-77B5-4C21-A6E9-0F25408CCD0E}
+	EndGlobalSection
+EndGlobal

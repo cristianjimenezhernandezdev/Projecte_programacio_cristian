@@ -1,0 +1,7 @@
+Barca,34,11,7
+Madrid,31,45,2
+Sevilla,42,42,4
+Betis,44,32,12
+Osasuna,33,,3
+Mallorca,a,b,c
+
