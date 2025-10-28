@@ -16,16 +16,16 @@ namespace cues
             Vehicle ve1 = new Vehicle(1,20000, "Cotxe", "Vermell");
             Vehicle ve2 = new Vehicle(2,15000, "Moto", "Blau");
             Vehicle ve3 = new Vehicle(3,30000, "Camio", "Verd");
+            
 
-            Cua1.Inserir(ve1);
-            Cua1.Inserir(ve2);
-            Cua1.Inserir(ve3);
+            //Cua1.Inserir(ve1);
+            //Cua1.Inserir(ve2);
+            //Cua1.Inserir(ve3);
+            
 
-            Cua1.Imprimir();
-
-            var extret = Cua1.Extreure();
-            Console.WriteLine("Extraiem un de la Cua: " + (extret != null ? extret.ToString() : "null"));
-
+            //Cua1.Imprimir();
+                       
+            Console.WriteLine("Extraiem un de la Cua: " + Cua1.Extreure());
             Cua1.Imprimir();
             Console.ReadKey();
         }

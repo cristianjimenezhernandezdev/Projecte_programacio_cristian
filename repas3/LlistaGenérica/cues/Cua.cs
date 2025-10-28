@@ -40,7 +40,7 @@ namespace cues
 
         public Vehicle Extreure()
         {
-            if (!Buida())
+            
             {
                 Vehicle vehicle = arrel.info;
                 if (arrel == fons)
@@ -54,11 +54,7 @@ namespace cues
                 }
                 return vehicle;
             }
-            else
-            {
-                Console.WriteLine("La cua esta buida");
-                return null;
-            }
+
         }
 
         public void Imprimir()
