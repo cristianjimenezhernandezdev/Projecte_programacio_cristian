@@ -20,5 +20,10 @@ namespace cues
             this.color = color;
 
         }
+
+        public override string ToString()
+        {
+            return "Id: " + id + ", Nom: " + nom + ", Color: " + color + ", Preu: " + preu;
+        }
     }
 }

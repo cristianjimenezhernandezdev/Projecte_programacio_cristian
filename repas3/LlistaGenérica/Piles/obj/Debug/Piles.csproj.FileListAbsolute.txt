@@ -5,3 +5,11 @@ C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.csproj.CoreCom
 C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.exe
 C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.pdb
 C:\Users\ruchm\source\repos\LlistaGenérica\Piles\obj\Debug\Piles.csprojResolveAssemblyReference.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\bin\Debug\Piles.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\bin\Debug\Piles.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\bin\Debug\Piles.pdb
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\obj\Debug\Piles.csproj.AssemblyReference.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\obj\Debug\Piles.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\obj\Debug\Piles.csproj.CoreCompileInputs.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\obj\Debug\Piles.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\Piles\obj\Debug\Piles.pdb

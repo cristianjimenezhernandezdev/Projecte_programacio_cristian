@@ -18,21 +18,14 @@ namespace cues
 
         public bool Buida()
         {
-            if (arrel == null)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return arrel == null;
         }
 
         public void Inserir(Vehicle v1)
         {
-            Node nou =new Node();
-            Vehicle v=new Vehicle(v1.id, v1.preu,v1.nom, v1.color);
-            nou.info = v;
+            Node nou = new Node();
+            nou.info = v1; // guardar referència, no cal clonar
+            nou.seg = null;
             if (Buida())
             {
                 arrel = nou;
@@ -45,12 +38,11 @@ namespace cues
             }
         }
 
-        public Vehicle Extreure() 
+        public Vehicle Extreure()
         {
             if (!Buida())
             {
                 Vehicle vehicle = arrel.info;
-                
                 if (arrel == fons)
                 {
                     arrel = null;
@@ -60,22 +52,22 @@ namespace cues
                 {
                     arrel = arrel.seg;
                 }
-                return vehicle; 
+                return vehicle;
             }
             else
             {
                 Console.WriteLine("La cua esta buida");
-                return null; 
+                return null;
             }
         }
 
         public void Imprimir()
         {
             Node reco = arrel;
-            Console.WriteLine("Listado de todos los elementos de la Cua.");
+            Console.WriteLine("Llistat de tots els elements de la Cua:");
             while (reco != null)
             {
-                Console.Write(reco.info + "-");
+                Console.WriteLine(reco.info); // usa Vehicle.ToString()
                 reco = reco.seg;
             }
             Console.WriteLine();

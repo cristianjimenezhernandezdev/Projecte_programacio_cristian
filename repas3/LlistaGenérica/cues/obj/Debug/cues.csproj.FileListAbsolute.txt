@@ -5,3 +5,11 @@ C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.csproj.CoreCompi
 C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.exe
 C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.pdb
 C:\Users\ruchm\source\repos\LlistaGenérica\cues\obj\Debug\cues.csprojResolveAssemblyReference.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\bin\Debug\cues.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\bin\Debug\cues.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\bin\Debug\cues.pdb
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\obj\Debug\cues.csproj.AssemblyReference.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\obj\Debug\cues.exe.config
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\obj\Debug\cues.csproj.CoreCompileInputs.cache
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\obj\Debug\cues.exe
+C:\Cristian\DAM2\Projecte\Programacio\repas3\LlistaGenérica\cues\obj\Debug\cues.pdb
